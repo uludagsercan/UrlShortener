@@ -20,7 +20,6 @@ A modern, high-performance URL shortening service built with .NET 8, React, Post
 - [Installation](#-installation)
 - [Usage](#-usage)
 - [API Reference](#-api-reference)
-- [Project Structure](#-project-structure)
 - [Docker Commands](#-docker-commands)
 - [Database Commands](#-database-commands)
 

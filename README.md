@@ -41,19 +41,6 @@ A modern, high-performance URL shortening service built with .NET 8, React, Post
 
 ---
 
-## 🏗️ Architecture
-
-```
-Browser
-   ↓
-Nginx (Port 80) ← Reverse Proxy
-   ↓         ↓
-Frontend    .NET 8 API
-(React)   (Clean Architecture)
-               ↓         ↓
-            Redis      PostgreSQL
-           (Cache)      (Main DB)
-```
 
 ### Clean Architecture Layers
 
@@ -62,34 +49,6 @@ UrlShortener.API            → HTTP Endpoints, Middleware, DI
 UrlShortener.Application    → Business Logic, CQRS, Use Cases
 UrlShortener.Domain         → Entities, Interfaces, Value Objects
 UrlShortener.Infrastructure → DB, Redis, Repository Implementations
-```
-
-### Request Flow
-
-```
-POST /api/urls
-      ↓
-  API Endpoint
-      ↓
-  MediatR → CreateShortUrlHandler
-      ↓
-  Generate unique short code
-      ↓
-  Save to PostgreSQL
-      ↓
-  Return Short URL
-
-GET /{shortCode}
-      ↓
-  Check Redis (< 1ms)
-      ↓ (cache miss)
-  Query PostgreSQL
-      ↓
-  Cache in Redis (1hr TTL)
-      ↓
-  Record Click
-      ↓
-  HTTP 302 Redirect
 ```
 
 ---

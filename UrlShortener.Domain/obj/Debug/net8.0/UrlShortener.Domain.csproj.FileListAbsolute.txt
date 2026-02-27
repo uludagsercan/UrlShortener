@@ -1,0 +1,12 @@
+/Users/sercanuludag/Documents/UrlShortener/UrlShortener.Domain/bin/Debug/net8.0/UrlShortener.Domain.deps.json
+/Users/sercanuludag/Documents/UrlShortener/UrlShortener.Domain/bin/Debug/net8.0/UrlShortener.Domain.dll
+/Users/sercanuludag/Documents/UrlShortener/UrlShortener.Domain/bin/Debug/net8.0/UrlShortener.Domain.pdb
+/Users/sercanuludag/Documents/UrlShortener/UrlShortener.Domain/obj/Debug/net8.0/UrlShortener.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sercanuludag/Documents/UrlShortener/UrlShortener.Domain/obj/Debug/net8.0/UrlShortener.Domain.AssemblyInfoInputs.cache
+/Users/sercanuludag/Documents/UrlShortener/UrlShortener.Domain/obj/Debug/net8.0/UrlShortener.Domain.AssemblyInfo.cs
+/Users/sercanuludag/Documents/UrlShortener/UrlShortener.Domain/obj/Debug/net8.0/UrlShortener.Domain.csproj.CoreCompileInputs.cache
+/Users/sercanuludag/Documents/UrlShortener/UrlShortener.Domain/obj/Debug/net8.0/UrlShortener.Domain.dll
+/Users/sercanuludag/Documents/UrlShortener/UrlShortener.Domain/obj/Debug/net8.0/refint/UrlShortener.Domain.dll
+/Users/sercanuludag/Documents/UrlShortener/UrlShortener.Domain/obj/Debug/net8.0/UrlShortener.Domain.pdb
+/Users/sercanuludag/Documents/UrlShortener/UrlShortener.Domain/obj/Debug/net8.0/ref/UrlShortener.Domain.dll
+/Users/sercanuludag/Documents/UrlShortener/UrlShortener.Domain/obj/Debug/net8.0/UrlShortener.Domain.csproj.AssemblyReference.cache

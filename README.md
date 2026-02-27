@@ -456,8 +456,3 @@ dotnet ef migrations list \
 - Use environment variables or a secrets manager for sensitive config in production
 - Consider adding HTTPS via Let's Encrypt in production
 
----
-
-## 📄 License
-
-MIT License — feel free to use this project however you like.
